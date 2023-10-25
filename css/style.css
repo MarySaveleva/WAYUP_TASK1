@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Arial Th";
+    src: local("Arial Th"), local("Arial Th"),
+    url("../font/Arial/arial_th.zip");
+    font-weight: bold normal;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 625px;
+    max-width: 1600px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.main_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 465px;
+    height: 389px;
+}
+
+.main_right_img {
+    width: 465px;
+    height: 465px;
+}
+
+.main_title {
+    font-family: "Arial Th", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.main_title_subtitle {
+    font-family: "Arial Th", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.main_btn {
+    background-color: #FF6861;
+    width: 219px;
+    height: 69px;
+    border: 0;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: "Arial Th", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    cursor: pointer; 
+}
+.main_btn:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
